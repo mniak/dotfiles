@@ -13,3 +13,5 @@ filetype plugin on
 filetype indent on
 set nu
 
+let mapleader=","
+exe 'source '.stdpath('config').'/init.go.vim'
