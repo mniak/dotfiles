@@ -1,0 +1,1 @@
+{{- if ne .chezmoi.os "windows" }}0-windows-install-scoop-packages.cmd{{ end }}
