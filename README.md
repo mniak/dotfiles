@@ -4,6 +4,9 @@
 **Install Scoop** in admin powershell
 ```
 iwr -useb get.scoop.sh | iex
+// Some dependencies are required
+// if you don't have it already
+scoop install git
 ```
 
 **Install Chezmoi** using scoop
