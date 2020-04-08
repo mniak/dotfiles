@@ -23,6 +23,12 @@ chezmoi init git@github.com:mniak/dotfiles.git
 # Or using HTTPS
 chezmoi init https://github.com/mniak/dotfiles.git
 ```
+If you are using https, try your git credentials using
+```
+chezmoi cd
+git push
+exit
+```
 
 **Show difference** using
 ```
