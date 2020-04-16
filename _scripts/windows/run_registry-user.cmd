@@ -13,8 +13,8 @@ reg add "HKCU\Software\Microsoft\Windows\CurrentVersion\ContentDeliveryManager" 
 reg add "HKCU\Software\Microsoft\Windows\CurrentVersion\ContentDeliveryManager" /t REG_DWORD /v SubscribedContent-338387Enabled  /d 0   /f 
 
 REM Keyboard accessibility settings
-reg add "HKCU\Control Panel\Keyboard"                                           /t REG_DWORD /v KeyboardDelay                    /d 0   /f 
-reg add "HKCU\Control Panel\Keyboard"                                           /t REG_DWORD /v KeyboardSpeed                    /d 31  /f 
+reg add "HKCU\Control Panel\Keyboard"                                           /t REG_SZ    /v KeyboardDelay                    /d 0   /f 
+reg add "HKCU\Control Panel\Keyboard"                                           /t REG_SZ    /v KeyboardSpeed                    /d 31  /f 
 reg add "HKCU\Control Panel\Accessibility\Keyboard Response"                    /t REG_DWORD /v Flags                            /d 2   /f 
 reg add "HKCU\Control Panel\Accessibility\StickyKeys"                           /t REG_SZ    /v Flags                            /d 26  /f 
 reg add "HKCU\Control Panel\Accessibility\ToggleKeys"                           /t REG_SZ    /v Flags                            /d 58  /f 
