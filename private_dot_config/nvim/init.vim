@@ -11,7 +11,11 @@ colorscheme PaperColor
 filetype on
 filetype plugin on
 filetype indent on
-set nu
+set number
+set expandtab
+set shiftwidth=4
+set tabstop=4
+set nobackup
 
 let mapleader=","
 exe 'source '.stdpath('config').'/init.go.vim'
