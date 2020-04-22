@@ -11,7 +11,8 @@ colorscheme PaperColor
 filetype on
 filetype plugin on
 filetype indent on
-set number
+set number         " set nu
+set relativenumber " set rnu
 set expandtab
 set shiftwidth=4
 set tabstop=4
