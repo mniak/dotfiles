@@ -1,0 +1,9 @@
+[credential]
+	helper = manager
+[user]
+	email = andregsilv@gmail.com
+	name = Andre Soares
+[mergetool]
+	path = kdiff3.exe
+	trustExitCode = false
+	keepBackup = false
