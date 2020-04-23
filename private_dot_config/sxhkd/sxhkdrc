@@ -1,0 +1,22 @@
+# terminal emulator
+super + Return
+	kitty
+
+super + e
+	nautilus
+
+super + @space
+	rofi -show combi -display-combi "" -display-drun "" -display-window "" -combi-modi drun,window -show-icons -icon-theme "la-capitaine"
+
+super + r
+	rofi -show run -display-run "" 
+
+super + Delete
+	xkill
+	
+# Reload configuration
+super + Escape
+	~/.desktoprc
+
+Print
+    deepin-screenshot

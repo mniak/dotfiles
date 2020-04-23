@@ -1,0 +1,7 @@
+#! /bin/sh
+
+~/.desktoprc
+
+bspc config window_gap      8
+bspc config border_width    2
+
