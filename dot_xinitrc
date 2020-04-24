@@ -1,1 +1,4 @@
-bspwm
+xset r rate 200 25
+
+sxhkd &
+exec bspwm
