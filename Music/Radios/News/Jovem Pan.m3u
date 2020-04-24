@@ -1,0 +1,4 @@
+#EXTM3U
+#EXTINF:0,Jovem Pan FM
+#EXTVLCOPT:network-caching=1000
+http://19293.live.streamtheworld.com:3690/JP_SP_FM_SC
