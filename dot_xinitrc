@@ -1,4 +1,5 @@
 xset r rate 200 25
+setleds +num
 
 sxhkd &
 exec bspwm
