@@ -6,7 +6,7 @@ super + e
 	nautilus
 
 super + @space
-	rofi -show combi -display-combi "" -display-drun "" -display-window "" -combi-modi drun,window -show-icons -icon-theme "la-capitaine"
+	rofi -show combi -display-combi "" -display-drun "" -display-window "" -combi-modi drun,window
 
 super + r
 	rofi -show run -display-run "" 
@@ -16,7 +16,11 @@ super + Delete
 	
 # Reload configuration
 super + Escape
-	~/.desktoprc
+	pkill -USR1 -x sxhkd
 
 Print
     deepin-screenshot
+
+
+super + ctrl + q
+	bspc quit
