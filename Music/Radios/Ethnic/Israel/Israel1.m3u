@@ -1,0 +1,4 @@
+#EXTM3U
+#EXTINF:0,Israel1
+#EXTVLCOPT:network-caching=1000
+http://jradio.ilcast.com:8025/
