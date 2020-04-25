@@ -6,10 +6,10 @@ super + e
 	nautilus
 
 super + @space
-	rofi -show combi -display-combi "" -display-drun "" -display-window "" -combi-modi drun,window
+	rofi -show combi 
 
 super + r
-	rofi -show run -display-run "" 
+	rofi -show run
 
 super + Delete
 	xkill
@@ -21,6 +21,8 @@ super + Escape
 Print
     deepin-screenshot
 
-
 super + ctrl + q
 	bspc quit
+
+super + {t,shift + t,s,f}
+	bspc node -t {tiled,pseudo_tiled,floating,fullscreen}
