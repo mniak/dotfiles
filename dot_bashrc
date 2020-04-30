@@ -7,4 +7,3 @@ alias vi=nvim
 alias vim=nvim
 
 PATH=$PATH:$HOME/go/bin
-PATH=$PATH:$HOME/.local/bin

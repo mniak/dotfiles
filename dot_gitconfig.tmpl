@@ -1,5 +1,9 @@
 [credential]
+{{- if eq .chezmoi.os "windows" }}
 	helper = manager
+{{- else if eq .chezmoi.os "linux" }}
+	helper = /usr/lib/git-core/git-credential-libsecret
+{{- end }}
 [user]
 	email = andregsilv@gmail.com
 	name = Andre Soares
