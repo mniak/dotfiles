@@ -6,4 +6,6 @@ export DOTNET_CLI_TELEMETRY_OPTOUT=1
 alias vi=nvim
 alias vim=nvim
 
+PATH=$PATH:$HOME/.local/bin
 PATH=$PATH:$HOME/go/bin
+PATH=$PATH:$HOME/.dotnet/tools
