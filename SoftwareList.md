@@ -13,7 +13,7 @@ Windows
 - [ ] [Keepass](https://keepass.info/download.html)
 - [ ] [DropBox](https://www.dropbox.com/install)
 - [ ] [Chocolatey](https://chocolatey.org/install)
-  - [ ] `sudo`
+  - [ ] `gsudo`
   - [ ] `neovim`
 - [ ] Modern [Powershell](https://github.com/PowerShell/PowerShell/releases)
 
