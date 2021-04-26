@@ -14,6 +14,7 @@ Windows
 - [ ] [DropBox](https://www.dropbox.com/install)
 - [ ] [Chocolatey](https://chocolatey.org/install)
   - [ ] `sudo`
+  - [ ] `neovim`
 
 ### Development
 - [ ] [Git](https://git-scm.com/downloads)
@@ -23,6 +24,7 @@ Windows
 - [ ] [KDiff3](https://sourceforge.net/projects/kdiff3/files/latest/download)
 - [ ] [Python](https://www.python.org/downloads/windows)
 - [ ] [Node](https://nodejs.org/en/download)
+- [ ] [Neovim](https://github.com/neovim/neovim/releases) `sudo cinst neovim`
 
 #### Optional
 - [ ] [Rust](https://www.rust-lang.org/tools/install)
