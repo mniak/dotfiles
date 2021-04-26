@@ -4,6 +4,7 @@ Windows
 ### General
 - [ ] Windows Terminal
 - [ ] [Firefox](https://www.mozilla.org/en-US/firefox/download)
+- [ ] [Chezmoi](https://www.chezmoi.io/docs/how-to)
   ```ps
   iwr https://download.mozilla.org/?product=firefox-latest-ssl&os=win64&lang=en-US -o firefox.exe
   ```
