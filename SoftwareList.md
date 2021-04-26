@@ -15,6 +15,7 @@ Windows
 - [ ] [Chocolatey](https://chocolatey.org/install)
   - [ ] `sudo`
   - [ ] `neovim`
+- [ ] Modern [Powershell](https://github.com/PowerShell/PowerShell/releases)
 
 ### Development
 - [ ] [Git](https://git-scm.com/downloads)
