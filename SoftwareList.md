@@ -15,6 +15,7 @@ Windows
   - [ ] `sudo`
 
 ### Development
+- [ ] [Git](https://git-scm.com/downloads)
 - [ ] [Go](https://golang.org/dl/)
 - [ ] [Visual Studio Code](https://code.visualstudio.com/download)
 - [ ] [ArchLinux on WSL](https://github.com/yuk7/ArchWSL/releases)
