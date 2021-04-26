@@ -1,0 +1,8 @@
+{{ if eq .chezmoi.os "windows" }}
+bspwm
+kitty
+rofi
+sxhkd
+xfce4
+vlc
+{{ end }}
