@@ -24,5 +24,5 @@ reg add "HKCU\Control Panel\Accessibility\ToggleKeys"        /t REG_SZ    /v Fla
 
 REM Open with Visual Studio Code
 reg add "HKCU\SOFTWARE\Classes\Directory\Background\shell\open-vscode" /t REG_SZ /ve /d "Open with Visual Studio Code" /f 
-reg add "HKCU\SOFTWARE\Classes\Directory\Background\shell\open-vscode" /t REG_EXPAND_SZ /v Icon /d "%LOCALAPPDATA%\Programs\Microsoft VS Code\Code.exe,0" /f 
-reg add "HKCU\SOFTWARE\Classes\Directory\Background\shell\open-vscode\command" /t REG_EXPAND_SZ /ve /d "\"%LOCALAPPDATA%\Programs\Microsoft VS Code\Code.exe\" \"%%V\"" /f
+reg add "HKCU\SOFTWARE\Classes\Directory\Background\shell\open-vscode" /t REG_SZ /v Icon /d "%LOCALAPPDATA%\Programs\Microsoft VS Code\Code.exe,0" /f 
+reg add "HKCU\SOFTWARE\Classes\Directory\Background\shell\open-vscode\command" /t REG_SZ /ve /d "\"%LOCALAPPDATA%\Programs\Microsoft VS Code\Code.exe\" \"%%V\"" /f
