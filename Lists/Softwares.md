@@ -13,6 +13,7 @@ List of software to install on a fresh OS install
 - [Keepass](https://keepass.info/download.html)
 - [DropBox](https://www.dropbox.com/install)
 - [7Zip](https://www.7-zip.org/download.html)
+- [Vlc](https://www.videolan.org/vlc)
 
 ### Windows specific
 - Windows Terminal
