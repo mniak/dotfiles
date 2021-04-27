@@ -1,6 +1,0 @@
-{{ if eq .chezmoi.os "windows" }}
-*.sh
-{{ else }}
-*.ps1
-*.bat
-{{ end }}
