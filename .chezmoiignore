@@ -1,12 +1,13 @@
 # Global
 **/*.md
+Lists/
 
 {{ if eq .chezmoi.os "darwin" }}
 # Darwin Specific
 
 {{ else }}
 # Non-Darwin Specific
-**/darwin
+**/darwin/
 
 {{ end}}
 
@@ -15,7 +16,7 @@
 
 {{ else }}
 # Non-Linux Specific
-**/linux
+**/linux/
 
 {{ end}}
 
@@ -30,7 +31,7 @@
 
 {{ else }}
 # Non-Windows Specific
-**/windows
+**/windows/
 AppData
 
 **/*.bat
