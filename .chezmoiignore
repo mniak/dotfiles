@@ -1,4 +1,8 @@
 **/*.md
-{{ if ne .chezmoi.os "windows" }}
+{{ if eq .chezmoi.os "windows" }}
+.xinitrc
+.bashrc
+.profile
+{{ else }}
 AppData
 {{ end }}

@@ -2,4 +2,5 @@
 *.sh
 {{ else }}
 *.ps1
+*.bat
 {{ end }}
