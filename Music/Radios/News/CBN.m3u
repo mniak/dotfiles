@@ -1,0 +1,4 @@
+#EXTM3U
+#EXTINF:15,CBN São Paulo
+#EXTVLCOPT:network-caching=1000
+https://medias.sgr.globo.com/hls/aCBNSP/aCBNSP.m3u8

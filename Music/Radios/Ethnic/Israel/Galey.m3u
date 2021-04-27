@@ -1,4 +1,4 @@
 #EXTM3U
-#EXTINF:0,Israel1
+#EXTINF:0,Galey Israel
 #EXTVLCOPT:network-caching=1000
 http://gly-audioswitch1.ecast.co.il:9000/live
