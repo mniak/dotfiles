@@ -1,8 +1,39 @@
+# Global
 **/*.md
+
+{{ if eq .chezmoi.os "darwin" }}
+# Darwin Specific
+
+{{ else }}
+# Non-Darwin Specific
+**/darwin
+
+{{ end}}
+
+{{ if eq .chezmoi.os "linux" }}
+# Linux Specific
+
+{{ else }}
+# Non-Linux Specific
+**/linux
+
+{{ end}}
+
 {{ if eq .chezmoi.os "windows" }}
+# Windows Specific
+
 .xinitrc
 .bashrc
 .profile
+
+**/*.sh
+
 {{ else }}
+# Non-Windows Specific
+**/windows
 AppData
-{{ end }}
+
+**/*.bat
+**/*.ps1
+
+{{ end}}

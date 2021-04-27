@@ -1,1 +1,3 @@
-{{- if ne .chezmoi.os "windows" }}PowerShell{{ end }}
+{{ if ne .chezmoi.os "windows" }}
+PowerShell
+{{ end }}
