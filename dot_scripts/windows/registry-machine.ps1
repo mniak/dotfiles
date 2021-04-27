@@ -1,10 +1,7 @@
-
-
 # Self-elevate the script if required
 if (-Not ([Security.Principal.WindowsPrincipal] [Security.Principal.WindowsIdentity]::GetCurrent()).IsInRole([Security.Principal.WindowsBuiltInRole] 'Administrator')) {
   if ([int](Get-CimInstance -Class Win32_OperatingSystem | Select-Object -ExpandProperty BuildNumber) -ge 6000) {
-    $CommandLine = "-NoExit -File `"" + $MyInvocation.MyCommand.Path + "`" " + $MyInvocation.UnboundArguments
-    Start-Process -FilePath PowerShell.exe -Verb Runas -ArgumentList $CommandLine
+    gsudo "`""$MyInvocation.MyCommand.Path + "`" " + $MyInvocation.UnboundArguments
     Exit
   }
 }
@@ -15,11 +12,3 @@ reg add "HKLM\Software\Microsoft\Windows NT\CurrentVersion\Winlogon\UserARSO\$SI
 
 # Use UTC clock
 # reg add "HKLM\System\CurrentControlSet\Control\TimeZoneInformation" /v RealTimeIsUniversal /d 1 /t REG_QWORD /f
-
-
-
-
-for /F "tokens=2" %%i in ('whoami /user /fo table /nh') do set SID=%%i
-reg add "HKLM\Software\Microsoft\Windows NT\CurrentVersion\Winlogon\UserARSO\%SID%" /t REG_DWORD /v OptOut /d 1 /f
-
-reg add "HKLM\System\CurrentControlSet\Control\TimeZoneInformation" /v RealTimeIsUniversal /d 1 /t REG_QWORD /f
