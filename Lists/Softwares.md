@@ -2,7 +2,8 @@ Software List
 ================
 List of software to install on a fresh OS install
 
-## General
+General
+-------
 
 - [Firefox](https://www.mozilla.org/en-US/firefox/download)
   - Windows:
@@ -10,7 +11,7 @@ List of software to install on a fresh OS install
     iwr https://download.mozilla.org/?product=firefox-latest-ssl&os=win64&lang=en-US -o firefox.exe
     ```
 - [Chezmoi](https://www.chezmoi.io/docs/how-to)
-- [Keepass](https://keepass.info/download.html)
+- [KeepassXC](https://keepassxc.org/download)
 - [DropBox](https://www.dropbox.com/install)
 - [7Zip](https://www.7-zip.org/download.html)
 - [Vlc](https://www.videolan.org/vlc)
@@ -23,7 +24,8 @@ List of software to install on a fresh OS install
 - [Edge Deflector](https://github.com/da2x/EdgeDeflector/releases)
 - [Notepad++](https://notepad-plus-plus.org/downloads)
 
-## Development
+Development
+-----------
 - [Git](https://git-scm.com/downloads)
 - [Go](https://golang.org/dl)
 - [Visual Studio Code](https://code.visualstudio.com/download)
@@ -39,6 +41,7 @@ List of software to install on a fresh OS install
 ### Optional
 - [Rust](https://www.rust-lang.org/tools/install)
 - [CMake](https://cmake.org/download)
+- [Wireshark](https://www.wireshark.org/download.html)
 
 ## Work
 - [Teams](https://www.microsoft.com/en-ww/microsoft-teams/download-app)
