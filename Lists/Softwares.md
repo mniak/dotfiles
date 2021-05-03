@@ -15,6 +15,7 @@ General
 - [DropBox](https://www.dropbox.com/install)
 - [7Zip](https://www.7-zip.org/download.html)
 - [Vlc](https://www.videolan.org/vlc)
+- [Flameshot](https://flameshot.org/download)
 
 ### Windows specific
 - Windows Terminal
