@@ -44,7 +44,8 @@ Development
 - [CMake](https://cmake.org/download)
 - [Wireshark](https://www.wireshark.org/download.html)
 
-## Work
+Work
+----
 - [Teams](https://www.microsoft.com/en-ww/microsoft-teams/download-app)
 
 ### Windows Specific
