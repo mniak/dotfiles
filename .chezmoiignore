@@ -9,7 +9,7 @@ Lists/
 # Non-Darwin Specific
 **/darwin/
 
-{{ end}}
+{{ end }}
 
 {{ if eq .chezmoi.os "linux" }}
 # Linux Specific
@@ -18,7 +18,7 @@ Lists/
 # Non-Linux Specific
 **/linux/
 
-{{ end}}
+{{ end }}
 
 {{ if eq .chezmoi.os "windows" }}
 # Windows Specific
@@ -37,4 +37,4 @@ AppData
 **/*.bat
 **/*.ps1
 
-{{ end}}
+{{ end }}
