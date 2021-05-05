@@ -1,6 +1,4 @@
-filename=/var/lib/gdm/.config/monitors.xml
-
-cat > $filename <<- EOF
+cat > /var/lib/gdm/.config/monitors.xml <<- EOF
 <monitors version="2">
   <configuration>
     <logicalmonitor>
@@ -43,3 +41,5 @@ cat > $filename <<- EOF
   </configuration>
 </monitors>
 EOF
+
+/etc/gdm/custom.conf
