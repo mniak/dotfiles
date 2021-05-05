@@ -1,12 +1,13 @@
 #!/bin/bash
 
 read -r -d '' CONTENT << DELIMITER-1234
+[desktop/input-sources]
+sources=[('xkb', 'br')]
 
-[org/gnome/desktop/peripherals/keyboard]
+[desktop/peripherals/keyboard]
 delay=uint32 200
 repeat=true
 repeat-interval=uint32 25
-
 DELIMITER-1234
 
-echo "$CONTENT" | dconf load /
+echo "$CONTENT" | dconf load /org/gnome/

@@ -36,6 +36,8 @@ switch-applications=['<Super>Tab']
 switch-applications-backward=['<Shift><Super>Tab']
 switch-group=['<Super>grave']
 switch-group-backward=['<Shift><Super>grave']
+switch-input-source=@as []
+switch-input-source-backward=@as []
 switch-panels=@as []
 switch-panels-backward=@as []
 switch-to-workspace-1=@as []
@@ -56,7 +58,7 @@ restore-shortcuts=@as []
 area-screenshot=@as []
 area-screenshot-clip=@as []
 calculator=['Calculator']
-custom-keybindings=['/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom0/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom1/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom2/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom3/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom4/']
+custom-keybindings=['/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/rofi-combi/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/rofi-drun/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/rofi-emoji/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/system-monitor/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/xkill/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/kitty/']
 email=['Mail']
 help=@as []
 home=['<Super>e']
@@ -78,30 +80,35 @@ window-screenshot=@as []
 window-screenshot-clip=@as []
 www=['HomePage']
 
-[settings-daemon/plugins/media-keys/custom-keybindings/custom0]
-binding='<Super>r'
-command='rofi -show drun'
-name='Rofi Run'
-
-[settings-daemon/plugins/media-keys/custom-keybindings/custom1]
+[settings-daemon/plugins/media-keys/custom-keybindings/rofi-combi]
 binding='<Super>space'
 command='rofi -show combi'
-name='Rofi Search'
+name='Rofi Combi'
 
-[settings-daemon/plugins/media-keys/custom-keybindings/custom2]
-binding='<Super>Return'
-command='kitty'
-name='Kitty'
+[settings-daemon/plugins/media-keys/custom-keybindings/rofi-drun]
+binding='<Super>r'
+command='rofi -show drun'
+name='Rofi Drun'
 
-[settings-daemon/plugins/media-keys/custom-keybindings/custom3]
+[settings-daemon/plugins/media-keys/custom-keybindings/rofi-emoji]
+binding='<Super>period'
+command='rofi -show emoji'
+name='Rofi Emoji'
+
+[settings-daemon/plugins/media-keys/custom-keybindings/system-monitor]
 binding='<Primary><Shift>Escape'
 command='gnome-system-monitor'
 name='System Monitor'
 
-[settings-daemon/plugins/media-keys/custom-keybindings/custom4]
+[settings-daemon/plugins/media-keys/custom-keybindings/xkill]
 binding='<Super>Delete'
 command='xkill'
 name='XKill'
+
+[settings-daemon/plugins/media-keys/custom-keybindings/kitty]
+binding='<Super>Return'
+command='kitty'
+name='Open Terminal'
 
 [shell/keybindings]
 focus-active-notification=@as []
