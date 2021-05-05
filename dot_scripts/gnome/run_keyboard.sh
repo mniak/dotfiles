@@ -2,13 +2,12 @@
 
 read -r -d '' CONTENT << DELIMITER-1234
 
-[desktop/interface]
-cursor-theme='Bibata-Modern-Ice'
-gtk-theme='Arc-Darker'
-icon-theme='Arc'
-monospace-font-name='JetBrains Mono 10'
+[org/gnome/desktop/org/gnome/desktop/peripherals/keyboard]
+delay=uint32 200
+repeat=true
+repeat-interval=uint32 20
 
-[desktop/wm/keybindings]
+[org/gnome/desktop/wm/keybindings]
 activate-window-menu=@as []
 begin-move=@as []
 begin-resize=@as []
@@ -49,10 +48,10 @@ switch-windows-backward=['<Shift><Alt>Tab']
 toggle-maximized=['<Super>Up']
 unmaximize=@as []
 
-[mutter/wayland/keybindings]
+[org/gnome/mutter/wayland/keybindings]
 restore-shortcuts=@as []
 
-[settings-daemon/plugins/media-keys]
+[org/gnome/settings-daemon/plugins/media-keys]
 area-screenshot=@as []
 area-screenshot-clip=@as []
 calculator=['Calculator']
@@ -78,32 +77,32 @@ window-screenshot=@as []
 window-screenshot-clip=@as []
 www=['HomePage']
 
-[settings-daemon/plugins/media-keys/custom-keybindings/custom0]
+[org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom0]
 binding='<Super>r'
 command='rofi -show drun'
 name='Rofi Run'
 
-[settings-daemon/plugins/media-keys/custom-keybindings/custom1]
+[org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom1]
 binding='<Super>space'
 command='rofi -show combi'
 name='Rofi Search'
 
-[settings-daemon/plugins/media-keys/custom-keybindings/custom2]
+[org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom2]
 binding='<Super>Return'
 command='kitty'
 name='Kitty'
 
-[settings-daemon/plugins/media-keys/custom-keybindings/custom3]
+[org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom3]
 binding='<Primary><Shift>Escape'
 command='gnome-system-monitor'
 name='System Monitor'
 
-[settings-daemon/plugins/media-keys/custom-keybindings/custom4]
+[org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom4]
 binding='<Super>Delete'
 command='xkill'
 name='XKill'
 
-[shell/keybindings]
+[org/gnome/shell/keybindings]
 focus-active-notification=@as []
 open-application-menu=@as []
 toggle-application-view=@as []
@@ -112,4 +111,4 @@ toggle-overview=@as []
 
 DELIMITER-1234
 
-echo "$CONTENT" | dconf load /org/gnome/
+echo "$CONTENT" | dconf load /
