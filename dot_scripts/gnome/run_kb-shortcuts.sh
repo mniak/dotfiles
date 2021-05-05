@@ -76,6 +76,7 @@ screenshot=['<Super>Print']
 screenshot-clip=['Print']
 search=['Search']
 stop=['AudioStop']
+volume-step=1
 window-screenshot=@as []
 window-screenshot-clip=@as []
 www=['HomePage']
