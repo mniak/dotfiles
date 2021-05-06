@@ -77,7 +77,7 @@ visudo
 
 ### Gnome
 ```
-pacman -S gnome gdm
+pacman -S gnome-shell gdm kitty
 systemctl enable gdm
 ```
 
