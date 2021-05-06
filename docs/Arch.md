@@ -6,7 +6,7 @@ Outside
 
 ### Pre-Install Basics
 ```bash 
-loadkeys br
+loadkeys br-abnt
 timedatectl set-ntp true
 ```
 ### Disk
@@ -37,7 +37,7 @@ hwclock --systohc
 echo en_US.UTF-8 UTF-8 >> /etc/locale.gen
 locale-gen
 echo LANG=en_US.UTF-8 > /etc/locale.conf
-echo KEYMAP=br > /etc/vconsole.conf
+echo KEYMAP=br-abnt > /etc/vconsole.conf
 
 echo MYHOST > /etc/hostname
 echo 127.0.0.1	localhost >  /etc/hosts
