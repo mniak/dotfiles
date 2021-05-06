@@ -75,4 +75,9 @@ visudo
 
 ```
 
+### Gnome
+```
+pacman -S gnome gdm
+systemctl enable gdm
+```
 
