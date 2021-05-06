@@ -21,7 +21,7 @@ swapon /dev/sdx0
 
 ### Install
 ```bash
-pacstrap /mnt base linux linux-firmware
+pacstrap /mnt base linux linux-firmware grub efibootmgr
 genfstab -U /mnt >> /mnt/etc/fstab
 arch-chroot /mnt
 ```
@@ -41,14 +41,27 @@ echo KEYMAP=br-abnt > /etc/vconsole.conf
 
 echo MYHOST > /etc/hostname
 echo 127.0.0.1	localhost >  /etc/hosts
-echo ::1		localhost >> /etc/hosts
+echo ::1        localhost >> /etc/hosts
 
 ```
 
 ### Users
 ```bash
 passwd
+```
+
+### Boot
+```
+mkdir /efi
+mount /dev/sdx0 /efi
+grub-install --target=x86_64-efi --efi-directory=/efi --bootloader-id="Arch Linux" 
+```
+
+### Post-boot
+```
 useradd -m USER
 passwd USER
 usermod -aG wheel USER
 ```
+
+
