@@ -1,6 +1,6 @@
 # Global
 **/*.md
-Lists/
+docs/
 
 {{ if eq .chezmoi.os "darwin" }}
 # Darwin Specific
