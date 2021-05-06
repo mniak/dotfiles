@@ -3,7 +3,6 @@
 KEY=$1
 
 clear
-dconf reset -f /
 chezmoi apply
 dconf dump $KEY > pre.txt
 echo "Make your changes, then press <ENTER> to continue..."

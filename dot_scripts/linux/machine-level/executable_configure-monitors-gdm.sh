@@ -1,3 +1,4 @@
+mkdir -p /var/lib/gdm/.config
 cat > /var/lib/gdm/.config/monitors.xml <<- EOF
 <monitors version="2">
   <configuration>
@@ -41,5 +42,3 @@ cat > /var/lib/gdm/.config/monitors.xml <<- EOF
   </configuration>
 </monitors>
 EOF
-
-/etc/gdm/custom.conf
