@@ -50,4 +50,5 @@ echo ::1		localhost >> /etc/hosts
 passwd
 useradd -m USER
 passwd USER
+usermod -aG wheel USER
 ```
