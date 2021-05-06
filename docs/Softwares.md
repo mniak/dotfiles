@@ -18,12 +18,15 @@ General
 - [Flameshot](https://flameshot.org/download)
 
 ### Windows specific
-- Windows Terminal
+- [Windows Terminal](https://github.com/microsoft/terminal/releases)
 - [Chocolatey](https://chocolatey.org/install)
   - `gsudo`
 - Modern [Powershell](https://github.com/PowerShell/PowerShell/releases)
 - [Edge Deflector](https://github.com/da2x/EdgeDeflector/releases)
 - [Notepad++](https://notepad-plus-plus.org/downloads)
+
+### Linux specific
+- [Starship](https://starship.rs)
 
 Development
 -----------
