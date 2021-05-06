@@ -21,7 +21,7 @@ swapon /dev/sdx0
 
 ### Install
 ```bash
-pacstrap /mnt base linux linux-firmware grub efibootmgr
+pacstrap /mnt base linux linux-firmware grub efibootmgr networkmanager
 genfstab -U /mnt >> /mnt/etc/fstab
 arch-chroot /mnt
 ```
@@ -60,9 +60,19 @@ grub-mkconfig -o /boot/grub/grub.cfg
 
 ### Post-boot
 ```
+systemctl enable NetworkManager
+systemctl start NetworkManager
+pacman -Syyu
+
+pacman -S neovim sudo
+export EDITOR=nvim
+
 useradd -m USER
 passwd USER
 usermod -aG wheel USER
+
+visudo
+
 ```
 
 
