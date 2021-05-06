@@ -1,19 +1,23 @@
 #!/bin/bash
 
 PACKAGES="
-git base-devel
+git base-devel ntfs-3g
 gnome firefox
-kitty starship
+kitty starship rofi
 nodejs go
+keepassxc
 
-arc-gtk-theme ttf-jetbrains-mono
-gnome-tweaks gtk-chtheme
+gnome-tweaks ttf-jetbrains-mono
+arc-icon-theme arc-solid-gtk-theme
+ttf-bitstream-vera ttf-croscore ttf-droid ttf-ibm-plex
+ttf-roboto noto-fonts
+ttf-fira-code ttf-fira-mono adobe-source-code-pro-fonts
 "
 sudo pacman -S --needed --noconfirm $PACKAGES
 
 AUR_PACKAGES="
 visual-studio-code-bin
 bibata-cursor-theme-bin
-
+ttf-windows ttf-ms-fonts
 "
 yay -S --needed --noconfirm $AUR_PACKAGES
