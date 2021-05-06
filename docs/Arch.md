@@ -54,7 +54,8 @@ passwd
 ```
 mkdir /efi
 mount /dev/sdx0 /efi
-grub-install --target=x86_64-efi --efi-directory=/efi --bootloader-id="Arch Linux" 
+grub-install --target=x86_64-efi --efi-directory=/efi --bootloader-id="Arch Linux"
+grub-mkconfig -o /boot/grub/grub.cfg
 ```
 
 ### Post-boot
