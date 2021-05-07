@@ -10,7 +10,7 @@ keepassxc
 gnome-tweaks ttf-jetbrains-mono
 arc-icon-theme arc-solid-gtk-theme
 ttf-bitstream-vera ttf-croscore ttf-droid ttf-ibm-plex
-ttf-roboto noto-fonts
+ttf-roboto noto-fonts ttf-fira-sans
 ttf-fira-code ttf-fira-mono adobe-source-code-pro-fonts
 "
 sudo pacman -S --needed --noconfirm $PACKAGES
