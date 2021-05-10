@@ -3,7 +3,7 @@
 PACKAGES="
 git base-devel ntfs-3g
 gnome firefox
-kitty starship rofi
+kitty starship rofi xsel
 nodejs go
 keepassxc
 
@@ -19,5 +19,6 @@ AUR_PACKAGES="
 visual-studio-code-bin
 bibata-cursor-theme-bin
 ttf-windows ttf-ms-fonts
+rofi-emoji
 "
 yay -S --needed --noconfirm $AUR_PACKAGES
