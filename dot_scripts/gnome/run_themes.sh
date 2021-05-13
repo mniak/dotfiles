@@ -7,7 +7,7 @@ document-font-name='Fira Sans Semi-Light 11'
 font-name='Fira Sans 11'
 gtk-theme='Arc-Dark-solid'
 icon-theme='Arc'
-monospace-font-name='JetBrains Mono 10'
+monospace-font-name='JetBrainsMono Nerd Font Regular 10'
 
 [desktop/wm/preferences]
 titlebar-font='Fira Sans 11'

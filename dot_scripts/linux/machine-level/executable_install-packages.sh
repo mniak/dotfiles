@@ -7,7 +7,7 @@ kitty starship rofi xsel
 nodejs go
 keepassxc
 
-gnome-tweaks ttf-jetbrains-mono
+gnome-tweaks
 arc-icon-theme arc-solid-gtk-theme
 ttf-bitstream-vera ttf-croscore ttf-droid ttf-ibm-plex
 ttf-roboto noto-fonts ttf-fira-sans
@@ -18,7 +18,7 @@ sudo pacman -S --needed --noconfirm $PACKAGES
 AUR_PACKAGES="
 visual-studio-code-bin
 bibata-cursor-theme-bin
-ttf-windows ttf-ms-fonts
+ttf-windows ttf-ms-fonts nerd-fonts-complete
 rofi-emoji
 nautilus-open-any-terminal
 "
