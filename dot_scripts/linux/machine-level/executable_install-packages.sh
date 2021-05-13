@@ -20,5 +20,6 @@ visual-studio-code-bin
 bibata-cursor-theme-bin
 ttf-windows ttf-ms-fonts
 rofi-emoji
+nautilus-open-any-terminal
 "
 yay -S --needed --noconfirm $AUR_PACKAGES
