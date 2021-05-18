@@ -5,6 +5,7 @@ export EDITOR=nvim
 
 alias vi=nvim
 alias vim=nvim
+alias k=kubectl
 
 PATH=$PATH:$HOME/go/bin
 
