@@ -58,7 +58,7 @@ restore-shortcuts=@as []
 area-screenshot=@as []
 area-screenshot-clip=@as []
 calculator=['Calculator']
-custom-keybindings=['/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/rofi-combi/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/rofi-drun/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/rofi-emoji/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/system-monitor/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/xkill/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/kitty/']
+custom-keybindings=['/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/rofi-combi/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/rofi-drun/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/rofi-emoji/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/system-monitor/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/xkill/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/kitty/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/flameshot/']
 email=['Mail']
 help=@as []
 home=['<Super>e']
@@ -72,14 +72,20 @@ play=['AudioPlay']
 previous=['AudioPrev']
 screencast=@as []
 screenreader=@as []
-screenshot=['<Super>Print']
-screenshot-clip=['Print']
+screenshot=@as []
+screenshot-clip=@as []
 search=['Search']
 stop=['AudioStop']
 volume-step=1
 window-screenshot=@as []
 window-screenshot-clip=@as []
 www=['HomePage']
+
+
+[org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/flameshot]
+binding='Print'
+command='flameshot gui'
+name='Take Screenshot'
 
 [settings-daemon/plugins/media-keys/custom-keybindings/rofi-combi]
 binding='<Super>space'
